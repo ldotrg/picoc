@@ -13,3 +13,7 @@ int say_myname(char *name, int age) {
 void my_car(struct car_info_t *info) {
     printf("year:%d, wheels: %d, door: %d, brand: %s\n", info->year, info->wheels, info->door, info->brand);
 }
+
+void show_enum(MY_ENUM in) {
+    printf(" My ENUM: %d\n", in);
+}

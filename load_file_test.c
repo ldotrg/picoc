@@ -13,3 +13,8 @@ my_car(&tesla);
 int age1 = say_myname("Dungru", 32);
 printf("Age %d\n", age1);
 
+
+show_enum(ENUM_2);
+
+printf("\n");
+
