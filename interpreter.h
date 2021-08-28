@@ -734,4 +734,9 @@ extern const char UnistdDefs[];
 extern struct LibraryFunction UnistdFunctions[];
 extern void UnistdSetupFunc(Picoc *pc);
 
+/* unistd.c */
+extern const char demo_Defs[];
+extern struct LibraryFunction demo_Functions[];
+extern void demo_SetupFunc(Picoc *pc);
+
 #endif /* INTERPRETER_H */
